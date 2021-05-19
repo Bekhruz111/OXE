@@ -1,20 +1,49 @@
-:root{
-    --dark--color:#161c28;
+:root {
+  --dark--color: #161c28;
+  --blue--color: #d0edf5;
 }
-body{
-    margin: 0;
-    font-family: 'Jost', sans-serif;
+
+body {
+  margin: 0;
+  font-family: "Jost", sans-serif;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
 }
-.container{
-    width: 80%;
-    margin: auto;
+
+.intro {
+  height: 300px;
+  background-color: var(--blue--color);
 }
-.nav-brand{
-    color: var(--dark--color);
+
+.container {
+  width: 80%;
+  margin: auto;
 }
-.nav-link{
-    color: var(--dark--color);
+.nav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand,
+.nav-link {
+  color: var(--dark--color);
+}
+
+.nav-brand {
+  font-size: 1.4em;
+  margin-right: 2em;
+}
+
+.nav-link {
+  margin-left: 4.5em;
+}
+.btn {
+  color: var(--dark--color);
+  padding: 0.8em 1.5em;
+  background-color: white;
+  margin-top: 40px;
 }
